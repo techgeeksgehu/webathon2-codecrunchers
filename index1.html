@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >TBI</title>
+   <link rel="icon" href="tbi.jpeg"/>
+   <link rel="stylesheet" href="style1.css" />
+
+</head>
+<body>
+
+   <nav class="navbar">
+       <img src="tbi.jpeg" alt="tbi" class="logo"/>
+       <ul class="nav-links">
+        <li><a href="#" class="nav">Home</a></li>
+        <li><a href="#"class="nav">About</a></li>
+        <li><a href="#"class="nav">Services</a></li>
+        <li><a href="#"class="nav">News</a></li>
+        <li><a href="#" class="ctn">Contact</a></li>
+       </ul>
+       <img src="gehu.jpeg" alt="tbi" class="logo"/>
+       <img src="menu.jpg" alt="menu" class="menu-btn"/>
+   </nav>
+
+    <header>
+        <div class="main-header">
+        <h2>Welcome To The Technology Business Incubator</h2>
+        <div class="line"></div>
+        <p>Enpowering startups and Entrepreneurs for a Better Furture</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+          
+        <div class="bubbles">
+            <img src="bubble3.png" alt="bubble" />
+            <img src="bubble3.png" alt="bubble" />
+            <img src="bubble3.png" alt="bubble" />
+            <img src="bubble3.png" alt="bubble" />
+            <img src="bubble3.png" alt="bubble" />
+            <img src="bubble3.png" alt="bubble" />
+            <img src="bubble3.png" alt="bubble" />
+        </div>
+    </header>
+
+    <script>
+        let menuBtn = document.querySelector('.menu-btn');
+        let navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

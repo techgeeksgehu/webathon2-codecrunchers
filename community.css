@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 16px 64px;
+    height: 1400px;
+    /* background-color: navy; */
+}
+
+#resources{
+    /* background-color: chocolate; */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+#mainContent{
+    /* background-color: blueviolet; */
+    font-size: 30px;
+    padding: 0 80px;
+    margin: 20px 100px 20px 50px;
+}
+.paragraphContainer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    /* background-color: bisque; */
+    flex-direction: column;
+    justify-content: start;
+}
+.heroImage{
+    width: 100%;
+    height: 800px;
+    /* background-color: aqua; */
+    background-image: url('communityImage.png');
+    background-size: contain;
+    background-position: 200px 0;
+    background-position: 100px 0;
+}
+.LowerContent{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    
+}
+#content{
+    font-size: 24px;
+}
